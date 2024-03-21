@@ -1,9 +1,9 @@
 /** @jsxImportSource react */
 import { qwikify$ } from "@builder.io/qwik-react";
-import Slider from "react-slick";
+import Slider; {type Settings} from "react-slick";
 
 const CarouselSlider = () => {
-    const settings = {
+    const settings : Settings = {
         dots: true,
         infinite: true,
         speed: 500,
